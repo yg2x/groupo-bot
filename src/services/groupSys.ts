@@ -18,7 +18,7 @@ export async function addUserToGroup(user: User, author: User): Promise<boolean>
   saveDatabase();
 
   user.createDM().then(dm => {
-    dm.send(`Você foi adicionado ao grupo por **${author.tag}**.`);
+    dm.send(`Você foi adicionado ao grupo por **${author.tag}** ✅`);
   });
 
   return true;
