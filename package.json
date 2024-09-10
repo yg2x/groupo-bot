@@ -1,0 +1,17 @@
+{
+  "name": "group-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "author": "heaven@cpzs",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^22.5.4",
+    "discord.js": "^14.16.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
