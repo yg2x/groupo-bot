@@ -9,6 +9,3 @@ npx ts-node src/index.ts - Para executar o script
 +group-add @user = adicionar um usuário ao seu grupo
 +group-remove @user = remover um usuário do seu grupo
 ```
-
-> [!IMPORTANT]
-> Esse script é feito por membros do servidor 409 - https://discord.gg/409.
